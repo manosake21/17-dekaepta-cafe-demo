@@ -1,11 +1,7 @@
-# 17 Dekaepta Cafe
+# 17 Δεκαεπτά Καφέ
 
-Website for 17 Dekaepta Cafe in Thessaloniki.
+Ιστοσελίδα για το 17 Δεκαεπτά Καφέ στη Θεσσαλονίκη.
 
-## Contact
-- Address: Al. Svolou 24, Thessaloniki 546 22, Greece
-- Phone: 231 027 0063
-- Email: Not publicly verified
-
-## Website
-https://17-dekaepta-cafe-demo.vercel.app
+## Στοιχεία επικοινωνίας
+- Διεύθυνση: Αλ. Σβώλου 24, Θεσσαλονίκη 546 22
+- Τηλέφωνο: 231 027 0063
