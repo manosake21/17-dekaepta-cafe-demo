@@ -1,7 +1,201 @@
-<!doctype html><html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>17 Dekaepta Cafe</title><style>body{margin:0;font-family:system-ui,sans-serif;background:#f1ece3;color:#28231f}header{padding:26px 7%;display:flex;justify-content:space-between}.hero{padding:100px 7%;background:#51453b;color:white}.hero h1{font-size:clamp(46px,8vw,86px);max-width:850px}.hero p{font-size:20px;line-height:1.6;max-width:650px}.cta{display:inline-block;padding:14px 22px;background:#dfb75b;color:#2a221c;text-decoration:none;border-radius:999px;font-weight:700}.grid{padding:60px 7%;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}.card{background:white;padding:30px;border-radius:18px}.demo{font-size:12px;opacity:.65}footer{padding:40px 7%;background:#241f1b;color:white}</style><style>.visit-cta{padding:56px 24px;max-width:900px;margin:auto}.visit-cta div{display:flex;gap:12px;flex-wrap:wrap}.visit-cta a{margin-top:8px}.visit-cta h2{margin-bottom:12px}</style><style>body{background:#101418!important;color:#f4efe6!important}header{position:sticky!important;top:0!important;background:#101418!important;backdrop-filter:blur(14px)!important;border-bottom:1px solid #38404a!important}main{max-width:1100px!important;margin:auto!important;padding:40px 22px!important}section{border:1px solid #38404a!important;border-radius:28px!important;padding:28px!important;margin:22px 0!important;background:linear-gradient(145deg,#171d24,#101418)!important;box-shadow:0 18px 50px #0005!important}a,button{border-radius:999px!important;transition:.25s!important}a:hover,button:hover{transform:translateY(-2px)!important}h1,h2{letter-spacing:-.03em!important}img{border-radius:24px!important}footer{border-top:1px solid #38404a!important;margin-top:50px!important;padding-top:28px!important}</style></head><body><header><strong>17 DEKAEPTA</strong><span>CAFE</span></header><section class="hero"><div class="demo"></div><h1>A simple place deserves a memorable home online.</h1><p>Ένα warm, editorial concept για να βρίσκουν οι πελάτες εύκολα το cafe, το vibe και την επόμενη επίσκεψή τους.</p><a class="cta" href="tel:+302310270063">Call 2310 270063</a></section><section class="grid"><div class="card"><h2>The vibe</h2><p>Lead with personality instead of a social profile alone.</p></div><div class="card"><h2>Location</h2><p>Al. Svolou 24, Thessaloniki 546 22</p></div><div class="card"><h2>Simple CTA</h2><p>Fast contact and local discovery on every screen.</p></div></section><footer><strong>17 DEKAEPTA CAFE</strong><p>2310 270063</p><div class="demo"></div></footer>
-<section id="contact" style="padding:2rem 1.25rem;max-width:900px;margin:0 auto">
-  <h2>Επικοινωνία</h2>
-  <p><strong>Τηλέφωνο:</strong> <a href="tel:+302310270063">+30 231 027 0063</a></p>
-  
-</section>
-<section id="visit" class="visit-cta"><h2>Μια στάση που αξίζει.</h2><p>Όταν ψάχνεις πού να πας, οι σωστές πληροφορίες κάνουν την απόφαση πιο εύκολη. Δες το σημείο και έλα να το γνωρίσεις.</p><div><a href="https://maps.google.com/?cid=16314106683822011145" target="_blank" rel="noopener">Δες τη διαδρομή στο Google Maps</a><a href="tel:2310270063">Κάλεσε · 231 027 0063</a></div></section></body></html>
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>17 Dekaepta Café – Θέση με στυλ στη Σάλε του Σβόλου</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<style>
+:root{
+  --clr-bg:#0e1117;
+  --clr-surface:#1a1e26;
+  --clr-primary:#dfb75b;
+  --clr-on-primary:#2a221c;
+  --clr-text:#f4efe6;
+  --clr-muted:#8a8f99;
+  --radius:12px;
+  --gap:1rem;
+  --font-sans:system-ui,Arial,Helvetica,sans-serif;
+}
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  background:var(--clr-bg);
+  color:var(--clr-text);
+  line-height:1.6;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+a:focus-visible,
+button:focus-visible{
+  outline:2px solid var(--clr-primary);
+  outline-offset:2px;
+}
+header{
+  position:sticky;
+  top:0;
+  background:rgba(14,17,23,.95);
+  backdrop-filter:blur(8px);
+  padding:var(--gap) 2rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:10;
+  border-bottom:1px solid var(--clr-muted);
+}
+header h1{
+  margin:0;
+  font-size:1.25rem;
+  font-weight:700;
+  letter-spacing:-0.02em;
+}
+header h1 span{
+  font-weight:400;
+  opacity:.7;
+}
+main{
+  max-width:1100px;
+  margin:auto;
+  padding:2rem 1.5rem;
+}
+section{
+  margin-bottom:var(--gap);
+  background:linear-gradient(145deg,var(--clr-surface),#15181f);
+  border-radius:var(--radius);
+  padding:2rem;
+  box-shadow:0 12px 30px rgba(0,0,0,.4);
+}
+h1,h2{
+  margin:0 0 .5rem;
+  line-height:1.2;
+  letter-spacing:-0.03em;
+}
+h1{
+  font-size:clamp(2.5rem,8vw,5rem);
+  color:var(--clr-primary);
+}
+h2{
+  font-size:1.75rem;
+  color:var(--clr-primary);
+}
+p{
+  margin:0 0 .75rem;
+}
+.cta{
+  display:inline-block;
+  padding:.75rem 1.5rem;
+  background:var(--clr-primary);
+  color:var(--clr-on-primary);
+  border-radius:999px;
+  font-weight:700;
+  transition:transform .2s;
+}
+.cta:hover,
+.cta:focus-visible{
+  transform:translateY(-2px);
+}
+.grid{
+  display:grid;
+  gap:1.5rem;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+.card{
+  background:var(--clr-bg);
+  border-radius:var(--radius);
+  padding:1.5rem;
+  box-shadow:0 4px 12px rgba(0,0,0,.3);
+}
+.icon{
+  width:1.2rem;
+  height:1.2rem;
+  vertical-align:middle;
+  fill:var(--clr-primary);
+  margin-right:.5rem;
+}
+footer{
+  text-align:center;
+  padding:2rem 1rem;
+  border-top:1px solid var(--clr-muted);
+}
+footer p{
+  margin:0;
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    transition:none !important;
+    animation:none !important;
+  }
+  html{
+    scroll-behavior:auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>17 <span>DEKAEPTA</span> CAFE</h1>
+  <nav aria-label="Κύρια πλοήγηση">
+    <a href="#vibe" class="cta">Το vibe</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>A simple place deserves a memorable home online.</h1>
+    <p>Ένα <strong>warm</strong>, editorial concept για να βρίσκουν οι πελάτες εύκολα το café, το vibe και την επόμενη επίσκεψή τους.</p>
+    <a href="tel:+302310270063" class="cta">Καλέστε μας 2310 270063</a>
+  </section>
+
+  <section id="vibe">
+    <h2>Το vibe</h2>
+    <p>Στο 17 Dekaepta Café η ατμόσφαιρα είναι χαλαρή, δημιουργική και γεμάτη γεύση. Ένα χώρο όπου η καλή μουσική συναντά το φρέσκο καφέ.</p>
+  </section>
+
+  <section id="location">
+    <h2>Τοποθεσία</h2>
+    <p>
+      <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+      Al. Σβόλου 24, Θεσσαλονίκη 546 22
+    </p>
+    <a href="https://maps.google.com/?cid=16314106683822011145" target="_blank" rel="noopener" class="cta">Δείτε τη διαδρομή</a>
+  </section>
+
+  <section id="contact" class="grid">
+    <div class="card">
+      <h2>Επικοινωνία</h2>
+      <p>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M6.62 10.79a15.054 15.054 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.5 2.53.77 3.88.77a1 1 0 011 1v3.5a1 1 0 01-1 1C10.07 22 2 13.93 2 3.5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.77 3.88a1 1 0 01-.21 1.11l-2.44 2.44z"/></svg>
+        <a href="tel:+302310270063">+30 231 027 0063</a>
+      </p>
+    </div>
+    <div class="card">
+      <h2>Ανοιχτά</h2>
+      <p>Δευτέρα – Σάββατο: 08:00 – 22:00</p>
+      <p>Κυριακή: 09:00 – 20:00</p>
+    </div>
+  </section>
+
+  <section id="cta" style="text-align:center;">
+    <h2>Μια στάση που αξίζει.</h2>
+    <p>Όταν ψάχνεις πού να πας, οι σωστές πληροφορίες κάνουν την απόφαση πιο εύκολη. Δες το σημείο και έλα να το γνωρίσεις.</p>
+    <a href="https://maps.google.com/?cid=16314106683822011145" target="_blank" rel="noopener" class="cta">Δες τη διαδρομή στο Google Maps</a>
+  </section>
+</main>
+
+<footer>
+  <strong>17 DEKAEPTA CAFE</strong>
+  <p>Al. Σβόλου 24, Θεσσαλονίκη 546 22</p>
+  <p><a href="tel:+302310270063">+30 231 027 0063</a></p>
+</footer>
+</body>
+</html>
